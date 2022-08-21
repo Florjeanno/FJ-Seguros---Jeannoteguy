@@ -81,6 +81,10 @@ color: rgba(241, 247, 245, 0.904);
     
 }
 
+#article img:hover {
+    transform: scale(1.15);
+}
+
 .parrafo {
     height: 180px;
     padding:20px 20px ;
@@ -99,7 +103,11 @@ color: rgba(241, 247, 245, 0.904);
 article p a {
     text-decoration: none;
     color: rgb(42, 105, 121);
-    
+  
+}
+
+article p {
+    margin-top: 20px;
 }
 
 .parrafo img {
@@ -107,7 +115,8 @@ article p a {
     border-radius: 5px;
     float: left;
     padding: 1px;
-
+    margin: 15px;
+    transition: all 300ms;
 }
 
 
