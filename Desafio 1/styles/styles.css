@@ -76,9 +76,7 @@ color: rgba(241, 247, 245, 0.904);
 }
 
 #article {
-    background-color: rgb(42, 105, 121);
-  
-    
+    background-color: rgb(42, 105, 121); 
 }
 
 #article img:hover {
