@@ -1,0 +1,721 @@
+body {
+    background-color: rgba(241, 247, 245, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+header {
+    background-color: rgb(42, 105, 121);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+
+h1 {
+    color:rgba(241, 247, 245, 0.904);
+}
+
+nav {
+    margin-left: auto;
+    
+}
+
+nav ul {
+    background-color: rgba(241, 247, 245, 0.904);
+    border-radius: 6px;
+    padding:10px;
+    width: 350px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a {
+text-decoration: none;
+border-radius: 6px;
+padding: 4px;
+font-size: 20px;
+background-color: rgb(42, 105, 121);
+color: rgba(241, 247, 245, 0.904);
+}
+
+
+
+
+.logoEm {
+    background-color: rgb(218, 233, 232);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.subtitulos {
+    background-color: rgb(218, 233, 232);
+    color: rgb(42, 105, 121);
+    text-align: center;
+    width: 220px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 2px
+
+}
+
+#article {
+    background-color: rgb(42, 105, 121);
+  
+    
+}
+
+.parrafo {
+    height: 180px;
+    padding:20px 20px ;
+    font: size 10px; ;
+    background-color: rgba(241, 247, 245, 0.904);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+article p a {
+    text-decoration: none;
+    color: rgb(42, 105, 121);
+    
+}
+
+.parrafo img {
+    width:200px;
+    border-radius: 5px;
+    float: left;
+    padding: 1px;
+
+}
+
+
+
+#footer {
+    background-color: rgb(245, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(42, 105, 121)
+    
+   
+}
+
+.textofooter{
+    color: rgb(42, 105, 121);
+    line-height: 40px;
+    
+    
+}
+
+footer ul li a { 
+    text-decoration: none;
+    color: rgb(42, 105, 121);
+    line-height: 40px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#redes{ 
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+footer img {
+    width:350px;
+    height: 50px;
+    
+}
+/* fin pagina index */
+
+/* comienzo paginas */
+.subrayado{
+    text-decoration-line: underline;
+
+}
+
+/* pagina seguros */ 
+
+#contenedorSeg{
+    background-color:rgb(42, 105, 121);
+    height: 715px;
+}
+
+#TituloSeg{
+    text-align:center;
+    position: relative;
+    top: 20px;
+    color: rgb(218, 233, 232);
+    
+}
+
+.divSeg {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 120px;
+
+}
+
+.segPart {
+    background-color:rgb(218, 233, 232);
+    color:rgb(42, 105, 121);
+    padding: 20px;
+    border-radius: 6px;
+    line-height: 30px;
+    display: flex;
+    justify-content:space-between ;
+    width: 20%;
+}
+
+.lipart {
+    margin-left: 40px;
+}
+
+#part {
+   
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+#emp {
+    flex-direction: column;
+   
+    
+}
+
+.titSeg {
+    text-align: center;
+}
+
+
+/* pagina sobre mi */
+
+#mainSobre{
+    height: 715px;
+    color:rgb(218, 233, 232) ;
+
+}
+
+.divSobre {
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+
+/* contacto */
+
+#mainContact{
+    height: 715px;
+    background-color: rgb(42, 105, 121);
+    display: flex;
+    flex-direction: column;
+}
+
+.divForm {
+    padding: 10px;
+    position: relative;
+    
+}
+
+.titForm {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.form {
+
+    width: 40%;
+    background-color:rgb(218, 233, 232);
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    color:rgb(42, 105, 121);
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+
+.elementosForm {
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    border:  1px solid rgb(42, 105, 121);
+    font-size: 16px;
+    line-height: 10px;
+    
+
+}
+
+.form .botones {
+    width: 45%;
+    padding: 10px;
+    margin: 16px 8px;
+    color:rgb(42, 105, 121);
+   
+}
+
+
+/* consejos utiles */
+
+.cuinicio {
+    width: 80px;
+}
+
+.datosPedir {
+    text-align: center;
+    justify-content: center;
+    color: rgb(218, 233, 232);
+    position: relative;
+    margin-top: 20px;
+    line-height: 30px;
+  
+}
+
+#idDocDatos {
+    padding: 10px;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 350px;
+   
+}
+
+#mainDatos {
+   height: 715px;
+}
+
+.divDat {
+    text-align: center;
+    line-height: 50px;
+    color: rgb(218, 233, 232);
+    padding: 20px;
+}
+
+
+#contactarse {
+    height: 715px;
+    
+}
+
+#listaDoc{
+   padding: 10px;
+   line-height: 30px;
+   text-align: left;
+   margin-left: 550px;
+}
+
+.divDoc {
+    text-align: center;
+    justify-content: center;
+    color: rgb(218, 233, 232);
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+main div img {
+    padding: 20px;
+}
+
+
+
+/* comienza grid */
+.contenedor {
+ display: grid;
+ grid-gap: 10px;
+ grid-template-areas: "header"
+                      "main"
+                      "footer";
+ grid-template-rows: 120px 720px 200px;
+ grid-template-columns: 100%;
+ height: 100vh;
+}
+
+.segContenedor { 
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "carrusel"
+                         "consejos"
+                         "empresas";
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 280px 220px;
+    height: 100vh;
+
+}
+
+.areas {
+    background-color: rgb(42, 105, 121);
+    border: 2px solid rgb(218, 233, 232); 
+    border-radius: 6px;
+    
+}
+
+.header {
+    grid-area: header;
+}
+
+.main { 
+    grid-area: main;
+}
+
+
+
+
+.carrusel {  
+grid-area: carrusel;
+background-color: blue;
+}
+ 
+.consejos {    
+grid-area: consejos;
+}
+
+.empresas {
+grid-area: empresas;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 380px) {
+    
+    .contenedor {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
+        grid-template-rows: 120px 1520px 400px;
+        grid-template-columns: 100%;
+        height: 100vh;
+       }
+       
+       .segContenedor { 
+           display: grid;
+           grid-gap: 10px;
+           grid-template-areas: "carrusel"
+                                "consejos"
+                                "empresas";
+           grid-template-columns: 100%;
+           grid-template-rows: 200px 680px 620px;
+           height: 100vh;
+       
+       }
+    
+    
+    body {
+        background-color: rgba(241, 247, 245, 0.904);
+    }
+  
+    nav {
+        display: none;
+    }
+    
+    header img {
+        width: 70px;
+        height: 70px;
+    }
+    header h1 {font-size: 20px;}
+
+    .parrafo {
+        height: 580px;
+        padding:20px 20px ;
+        font: size 8px; ;
+        background-color: rgba(241, 247, 245, 0.904);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+        gap: 10px;
+    }
+    
+    article p a {
+        text-decoration: none;
+        color: rgb(42, 105, 121);
+        
+        
+    }
+    
+    .parrafo img {
+        height: 150px;
+        width:180px;
+        border-radius: 5px;
+        float: left;
+        
+    
+    }
+    
+    .logoEm {
+        height: 520px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+        gap: 70px;
+        
+        
+    }
+
+    section img {
+        height: 90px;
+        width: 270px;
+        
+    }
+
+    #footer {
+        background-color: rgb(245, 248, 248);
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 3px solid rgb(42, 105, 121);
+        
+        
+       
+    }
+    
+    .textofooter{
+        color: rgb(42, 105, 121);
+        line-height: 40px;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    
+    footer ul li a { 
+        text-decoration: none;
+        color: rgb(42, 105, 121);
+        line-height: 40px;
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    #redes{ 
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+    
+    
+    }
+
+    footer img {
+        width:300px;
+        height: 50px;
+        align-items: center;
+        margin-left: 9px;
+    }
+
+    /* inicio responsive pagina seguros */
+
+    #contenedorSeg {
+        background-color:rgb(42, 105, 121);
+        height: auto;
+    }
+    
+
+    .divSeg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-top: 120px;
+        gap: 50px;
+    
+    }
+    
+    .segPart {
+        background-color:rgb(218, 233, 232);
+        color:rgb(42, 105, 121);
+        padding: 20px;
+        border-radius: 6px;
+        line-height: 30px;
+        width: 60%;
+    }
+
+    /* pagina resposive contacto */
+
+    #mainContact{
+        height: auto;
+        background-color: rgb(42, 105, 121);
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+
+    .form {
+        width: 80%;
+       
+    }
+    
+    .titForm {
+        font-size: 25px;
+    }
+    
+    /*pagina responsive sobre mi  */
+
+    #mainSobre{
+            height: auto;
+            color:rgb(218, 233, 232);
+    }
+        
+    .divSobre {
+         width: 300px;
+    }
+
+    
+    /* pagina responsive que datos pedir */
+
+    .datosPedir {
+        padding: 20px;
+        color: rgb(218, 233, 232);
+        text-align: center;
+        
+        
+      
+    }
+    
+    #idDocDatos {
+        position: relative;
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-right: 5px;
+        line-height: 40px;
+        text-align: left;
+        
+        
+       
+    }
+    
+    .imgdatos {
+        height: 230px;
+        width: 300px;
+    }
+
+    #mainDatos {
+       height: auto;
+       
+    }
+    
+    /* pagina responsive porque contactarse */
+
+    .divDat {
+        text-align: center;
+        line-height: 50px;
+        color: rgb(218, 233, 232);
+        padding: 20px;
+    }
+
+    .divDat h1 {
+        font-size: 20px;
+    }
+
+    #contactarse {
+        height: auto;
+    }
+
+    .imgProductor {
+        height: 220px;
+        width: 300px;
+    }
+
+    /* PAGINA RESPONSIVE  DOC OBLIGATORIA*/
+
+    #imgproductor {
+        height: auto;
+    }
+
+    #listaDoc{
+        padding: 40px;
+        text-align: left;
+        margin-left: 80px;
+        margin-right: 10px;
+        
+        
+    }
+
+    .divDoc {
+         text-align: center;
+         justify-content: center;
+         color: rgb(218, 233, 232);
+         position: relative;
+         margin-top: 40px;
+         
+     }
+
+     .divDoc h2 {
+        font-size: 20px;
+     }
+
+     .divDoc h3 {
+        font-size: 15px;
+    }
+
+
+    .divDoc img {
+        height: 200px;
+        width: 300px;
+    }
+}
+        
+
+
+    
+    
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
