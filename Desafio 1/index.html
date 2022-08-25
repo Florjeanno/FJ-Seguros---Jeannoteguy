@@ -13,11 +13,11 @@
 <body class="contenedor">
   <header class="areas header">
     <img src="./images/Logo Fj Seguros.png" alt="Logo FJ Seguros" width="100px" height="100px"/>
-    <h1>FJ Seguros</h1>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <h1 class="tituloPag">FJ Seguros</h1>
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler hamb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,7 +39,31 @@
     </nav>
   </header>
   <main class="segContenedor main">
-    <article class="areas" class="carrusel">carrusel</article>
+    <!-- <article class="areas" class="carrusel">carrusel</article> -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/1.png" class="d-block  slide" alt="seguro bici">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/5.png" class="d-block  slide" alt="art">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Copia de Copia de Copia de FJ Seguros- posteos para el feec.png" class="d-block  slide" alt="hogar">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Copia de FJ Seguros- posteos para el feec (2).png" class="d-block 0 slide" alt="consorcio">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <article class="areas" class="consejos" id="article">
         <h3 class="subtitulos">Consejos Utiles</h3>     
