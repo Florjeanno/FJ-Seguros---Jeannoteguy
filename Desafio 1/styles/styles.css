@@ -345,7 +345,7 @@ main div img {
     grid-template-areas: "header"
                       "main"
                       "footer";
-    grid-template-rows: 120px 850px 200px;
+    grid-template-rows: 120px 930px 200px;
     grid-template-columns: 100%;
     height: 100vh;
 }
@@ -357,7 +357,7 @@ main div img {
                          "consejos"
                          "empresas";
     grid-template-columns: 100%;
-    grid-template-rows: 330px 280px 220px;
+    grid-template-rows: 410px 280px 220px;
     height: 100vh;
 }
 
@@ -402,8 +402,10 @@ main div img {
 
 
 .slide img {
-    height:50vh;
-    width: 100% !important;
+    height: 62vh;
+    width: 40%;
+    position: relative;
+    left: 400px;
 }
 
 .hamb {
@@ -414,13 +416,20 @@ main div img {
     
     .contenedor {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 20px;
         grid-template-areas: "header"
                              "main"
                              "footer";
-        grid-template-rows: 120px 1520px 400px;
+        grid-template-rows: 120px 1550px 400px;
         grid-template-columns: 100%;
         height: 100vh;
+    }
+
+    .slide img {
+        height: 35vh;
+        width: 80%;
+        position: relative;
+        left: 40px;
     }
 
     .subtitulos{
@@ -429,12 +438,12 @@ main div img {
        
        .segContenedor { 
            display: grid;
-           grid-gap: 50px;
+           grid-gap: 20px;
            grid-template-areas: "carrusel"
                                 "consejos"
                                 "empresas";
            grid-template-columns: 100%;
-           grid-template-rows: 200px 800px 620px;
+           grid-template-rows: 200px 800px 510px;
            height: 100vh;
     }
     
@@ -485,7 +494,7 @@ main div img {
     }
     
     .logoEm {
-        height: 365px;
+        height: 390px;
         border-radius: 6px;
         display: flex;
         flex-direction: column;
@@ -499,8 +508,8 @@ main div img {
     }
 
     section img {
-        height: 100px;
-        width: 220px;
+        height: 105px;
+        width: 200px;
     }
 
     #footer {
