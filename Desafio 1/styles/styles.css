@@ -1,7 +1,6 @@
 body {
     background-color: rgba(241, 247, 245, 0.904);
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 
@@ -13,7 +12,6 @@ header {
     justify-content:flex-start;
     padding: 10px;
     width: 100%;
-    
 }
 
 
@@ -38,12 +36,12 @@ nav ul {
 }
 
 nav ul li a {
-text-decoration: none;
-border-radius: 6px;
-padding: 4px;
-font-size: 20px !important;
-background-color: rgb(42, 105, 121);
-color: rgba(241, 247, 245, 0.904) !important;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 20px !important;
+    background-color: rgb(42, 105, 121);
+    color: rgba(241, 247, 245, 0.904) !important;
 }
 
 nav ul li a:hover {
@@ -82,7 +80,6 @@ nav ul li:hover {
     margin-left: 20px;
     padding: 2px;
     font-size:22px;
-
 }
 
 #article {
@@ -111,7 +108,6 @@ nav ul li:hover {
 article p a {
     text-decoration: none;
     color: rgb(42, 105, 121);
-  
 }
 
 article p {
@@ -134,16 +130,12 @@ article p {
     display: flex;
     justify-content: space-between;
     border: 3px solid rgb(42, 105, 121)
-    
-   
 }
 
 .textofooter{
     color: rgb(42, 105, 121);
     line-height: 40px;
     font-size: 16px;
-    
-    
 }
 
 footer ul li a { 
@@ -158,21 +150,20 @@ footer ul li a {
     list-style-type: none;
     text-align: center;
     justify-content: center;
-
-
 }
 
 footer img {
     width:350px;
     height: 50px;
-    
 }
+
 /* fin pagina index */
 
+
 /* comienzo paginas */
+
 .subrayado{
     text-decoration-line: underline;
-
 }
 
 /* pagina seguros */ 
@@ -188,7 +179,6 @@ footer img {
     top: 20px;
     color: rgb(218, 233, 232);
     font-size: 30px;
-    
 }
 
 .divSeg {
@@ -196,7 +186,6 @@ footer img {
     justify-content: space-evenly;
     position: relative;
     margin-top: 120px;
-
 }
 
 .segPart {
@@ -218,13 +207,10 @@ footer img {
    
     flex-direction: column;
     text-align: left;
-    
 }
 
 #emp {
     flex-direction: column;
-   
-    
 }
 
 .titSeg {
@@ -232,13 +218,11 @@ footer img {
     font-size: 20px;
 }
 
-
 /* pagina sobre mi */
 
 #mainSobre{
     height: 850px;
     color:rgb(218, 233, 232) ;
-
 }
 
 .divSobre {
@@ -261,17 +245,14 @@ footer img {
 .divForm {
     padding: 10px;
     position: relative;
-    
 }
 
 .titForm {
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .form {
-
     width: 40%;
     background-color:rgb(218, 233, 232);
     padding: 40px;
@@ -281,9 +262,7 @@ footer img {
     color:rgb(42, 105, 121);
     text-align: center;
     line-height: 40px;
-    
 }
-
 
 .elementosForm {
     width: 95%;
@@ -292,8 +271,6 @@ footer img {
     border:  1px solid rgb(42, 105, 121);
     font-size: 16px;
     line-height: 10px;
-    
-
 }
 
 .form .botones {
@@ -301,9 +278,7 @@ footer img {
     padding: 10px;
     margin: 16px 8px;
     color:rgb(42, 105, 121);
-   
 }
-
 
 /* consejos utiles */
 
@@ -318,7 +293,6 @@ footer img {
     position: relative;
     margin-top: 20px;
     line-height: 30px;
-  
 }
 
 #idDocDatos {
@@ -326,7 +300,6 @@ footer img {
     line-height: 60px;
     text-align: left;
     margin-left: 350px;
-   
 }
 
 #mainDatos {
@@ -343,14 +316,13 @@ footer img {
 
 #contactarse {
     height: 850px;
-    
 }
 
 #listaDoc{
-   padding: 10px;
-   line-height: 30px;
-   text-align: left;
-   margin-left: 550px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 550px;
 }
 
 .divDoc {
@@ -359,25 +331,23 @@ footer img {
     color: rgb(218, 233, 232);
     position: relative;
     margin-top: 20px;
-    
 }
 
 main div img {
     padding: 20px;
 }
 
-
-
 /* comienza grid */
+
 .contenedor {
- display: grid;
- grid-gap: 10px;
- grid-template-areas: "header"
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "header"
                       "main"
                       "footer";
- grid-template-rows: 120px 850px 200px;
- grid-template-columns: 100%;
- height: 100vh;
+    grid-template-rows: 120px 850px 200px;
+    grid-template-columns: 100%;
+    height: 100vh;
 }
 
 .segContenedor { 
@@ -389,14 +359,12 @@ main div img {
     grid-template-columns: 100%;
     grid-template-rows: 330px 280px 220px;
     height: 100vh;
-
 }
 
 .areas {
     background-color: rgb(42, 105, 121);
     border: 2px solid rgb(218, 233, 232); 
     border-radius: 6px;
-    
 }
 
 .header {
@@ -407,27 +375,22 @@ main div img {
     grid-area: main;
 }
 
-
-
-
 .carrusel {  
-grid-area: carrusel;
-
+    grid-area: carrusel;
 }
  
 .consejos {    
-grid-area: consejos;
+    grid-area: consejos;
 }
 
 .empresas {
-grid-area: empresas;
+    grid-area: empresas;
 }
 
 .footer {
     grid-area: footer;
     padding: 10px;
 }
-
 
 /* carrousel bootstrap */
 
@@ -441,7 +404,6 @@ grid-area: empresas;
 .slide img {
     height:50vh;
     width: 100% !important;
-    
 }
 
 .hamb {
@@ -459,7 +421,7 @@ grid-area: empresas;
         grid-template-rows: 120px 1520px 400px;
         grid-template-columns: 100%;
         height: 100vh;
-       }
+    }
        
        .segContenedor { 
            display: grid;
@@ -470,8 +432,7 @@ grid-area: empresas;
            grid-template-columns: 100%;
            grid-template-rows: 200px 680px 620px;
            height: 100vh;
-       
-       }
+    }
     
     
     body {
@@ -486,7 +447,9 @@ grid-area: empresas;
         width: 70px;
         height: 70px;
     }
-    header h1 {font-size: 20px;}
+
+    header h1 {font-size: 20px;
+    }
 
     .parrafo {
         height: 580px;
@@ -508,8 +471,6 @@ grid-area: empresas;
     article p a {
         text-decoration: none;
         color: rgb(42, 105, 121);
-        
-        
     }
     
     .parrafo img {
@@ -517,8 +478,6 @@ grid-area: empresas;
         width:180px;
         border-radius: 5px;
         float: left;
-        
-    
     }
     
     .logoEm {
@@ -533,14 +492,11 @@ grid-area: empresas;
         margin-right: 20px;
         margin-left: 20px;
         gap: 70px;
-        
-        
     }
 
     section img {
         height: 90px;
         width: 270px;
-        
     }
 
     #footer {
@@ -549,9 +505,6 @@ grid-area: empresas;
         flex-direction: column;
         padding: 20px;
         border: 3px solid rgb(42, 105, 121);
-        
-        
-       
     }
     
     .textofooter{
@@ -559,8 +512,6 @@ grid-area: empresas;
         line-height: 40px;
         justify-content: center;
         text-align: center;
-        
-        
     }
     
     footer ul li a { 
@@ -577,8 +528,6 @@ grid-area: empresas;
         align-items: center;
         justify-content: center;
         font-size: large;
-    
-    
     }
 
     footer img {
@@ -603,7 +552,6 @@ grid-area: empresas;
         position: relative;
         margin-top: 120px;
         gap: 50px;
-    
     }
     
     .segPart {
@@ -628,7 +576,6 @@ grid-area: empresas;
 
     .form {
         width: 80%;
-       
     }
     
     .titForm {
@@ -646,16 +593,12 @@ grid-area: empresas;
          width: 300px;
     }
 
-    
     /* pagina responsive que datos pedir */
 
     .datosPedir {
         padding: 20px;
         color: rgb(218, 233, 232);
         text-align: center;
-        
-        
-      
     }
     
     #idDocDatos {
@@ -665,9 +608,6 @@ grid-area: empresas;
         margin-right: 5px;
         line-height: 40px;
         text-align: left;
-        
-        
-       
     }
     
     .imgdatos {
@@ -677,7 +617,6 @@ grid-area: empresas;
 
     #mainDatos {
        height: auto;
-       
     }
     
     /* pagina responsive porque contactarse */
@@ -713,8 +652,6 @@ grid-area: empresas;
         text-align: left;
         margin-left: 80px;
         margin-right: 10px;
-        
-        
     }
 
     .divDoc {
@@ -723,12 +660,11 @@ grid-area: empresas;
          color: rgb(218, 233, 232);
          position: relative;
          margin-top: 40px;
-         
-     }
+    }
 
      .divDoc h2 {
         font-size: 20px;
-     }
+    }
 
      .divDoc h3 {
         font-size: 15px;
