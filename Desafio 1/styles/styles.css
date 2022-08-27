@@ -54,7 +54,7 @@ nav ul li:hover {
     transform: scale(1.15);
     transition: all 300ms;
 }
-  
+
 .logoEm {
     background-color: rgb(218, 233, 232);
     border-radius: 6px;
@@ -123,8 +123,6 @@ article p {
     transition: all 300ms;
 }
 
-
-
 #footer {
     background-color: rgb(245, 248, 248);
     display: flex;
@@ -132,7 +130,7 @@ article p {
     border: 3px solid rgb(42, 105, 121)
 }
 
-.textofooter{
+.textofooter {
     color: rgb(42, 105, 121);
     line-height: 40px;
     font-size: 16px;
@@ -146,7 +144,7 @@ footer ul li a {
     text-align: center;
 }
 
-#redes{ 
+#redes { 
     list-style-type: none;
     text-align: center;
     justify-content: center;
@@ -336,6 +334,7 @@ footer img {
 main div img {
     padding: 20px;
 }
+ /* fin paginas */
 
 /* comienza grid */
 
@@ -392,6 +391,8 @@ main div img {
     padding: 10px;
 }
 
+/* fin grid */
+
 /* carrousel bootstrap */
 
 .slide {
@@ -412,6 +413,10 @@ main div img {
     background-color: rgba(241, 247, 245, 0.904);
 }
 
+/* fin carrousel */
+
+/* comienzo media para movil */
+
 @media screen and (max-width: 380px) {
     
     .contenedor {
@@ -424,6 +429,32 @@ main div img {
         grid-template-columns: 100%;
         height: 100vh;
     }
+
+    header img {
+        width: 70px;
+        height: 70px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .zindex {
+        z-index: 2;
+    }
+
+    nav ul li {
+        padding: 5px !important;
+    }
+
+    nav ul li a{
+        padding-left: 10px !important;
+    }
+
 
     .slide img {
         height: 35vh;
@@ -447,34 +478,20 @@ main div img {
            height: 100vh;
     }
     
-    
     body {
         background-color: rgba(241, 247, 245, 0.904);
     }
   
-    nav {
-        display: none;
-    }
-    
-    header img {
-        width: 70px;
-        height: 70px;
-    }
-
-    header h1 {font-size: 20px;
-    }
-
     .parrafo {
         height: 700px;
         padding:20px 20px ;
         font: size 8px; ;
         background-color: rgba(241, 247, 245, 0.904);
         border-radius: 6px;
-        /* display: flex; */
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* position: relative; */
         top: 15px;
         margin-right: 20px;
         margin-left: 20px;
@@ -520,7 +537,7 @@ main div img {
         border: 3px solid rgb(42, 105, 121);
     }
     
-    .textofooter{
+    .textofooter {
         color: rgb(42, 105, 121);
         line-height: 40px;
         justify-content: center;
@@ -535,7 +552,7 @@ main div img {
         text-align: center;
     }
     
-    #redes{ 
+    #redes { 
         list-style-type: none;
         text-align: center;
         align-items: center;
@@ -578,15 +595,13 @@ main div img {
 
     /* pagina resposive contacto */
 
-    #mainContact{
+    #mainContact {
         height: auto;
         background-color: rgb(42, 105, 121);
         display: flex;
         flex-direction: column;
     }
     
-   
-
     .form {
         width: 80%;
     }
@@ -597,7 +612,7 @@ main div img {
     
     /*pagina responsive sobre mi  */
 
-    #mainSobre{
+    #mainSobre {
             height: auto;
             color:rgb(218, 233, 232);
     }
@@ -675,14 +690,13 @@ main div img {
          margin-top: 40px;
     }
 
-     .divDoc h2 {
+    .divDoc h2 {
         font-size: 20px;
     }
 
-     .divDoc h3 {
+    .divDoc h3 {
         font-size: 15px;
     }
-
 
     .divDoc img {
         height: 200px;
