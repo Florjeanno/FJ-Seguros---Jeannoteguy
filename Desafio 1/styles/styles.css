@@ -599,6 +599,10 @@ main div img {
 
     /* pagina resposive contacto */
 
+    .zindex {
+        z-index:;
+    }
+
     #mainContact {
         height: auto;
         background-color: rgb(42, 105, 121);
