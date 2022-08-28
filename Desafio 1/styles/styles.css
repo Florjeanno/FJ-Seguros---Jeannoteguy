@@ -70,6 +70,7 @@ nav ul li:hover {
 .tituloPag {
     font-size: 32px;
 }
+
 .subtitulos {
     background-color: rgb(218, 233, 232);
     color: rgb(42, 105, 121);
@@ -121,13 +122,15 @@ article p {
     padding: 1px;
     margin: 15px;
     transition: all 300ms;
+    box-shadow: 2px 0px 3px 0px;
 }
 
 #footer {
     background-color: rgb(245, 248, 248);
     display: flex;
     justify-content: space-between;
-    border: 3px solid rgb(42, 105, 121)
+    align-items: center;
+    border: 3px solid rgb(42, 105, 121)    
 }
 
 .textofooter {
@@ -310,7 +313,6 @@ footer img {
     color: rgb(218, 233, 232);
     padding: 20px;
 }
-
 
 #contactarse {
     height: 850px;
