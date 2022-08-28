@@ -14,7 +14,6 @@ header {
     width: 100%;
 }
 
-
 h1 {
     color:rgba(241, 247, 245, 0.904);
 }
@@ -49,7 +48,6 @@ nav ul li a:hover {
     color: rgb(42, 105, 121) !important;
     border: 1px solid rgb(42, 105, 121);
 }
-
 
 nav ul li:hover {
     transform: scale(1.15);
@@ -472,15 +470,15 @@ main div img {
         margin-left: 80px;
     }
        
-       .segContenedor { 
-           display: grid;
-           grid-gap: 20px;
-           grid-template-areas: "carrusel"
-                                "consejos"
-                                "empresas";
-           grid-template-columns: 100%;
-           grid-template-rows: 220px 1000px 510px;
-           height: 100vh;
+    .segContenedor { 
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "carrusel"
+                             "consejos"
+                             "empresas";
+        grid-template-columns: 100%;
+        grid-template-rows: 220px 1000px 510px;
+        height: 100vh;
     }
     
     body {
