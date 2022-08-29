@@ -317,7 +317,7 @@ footer img {
     height: 930px;
 }
 
-#listaDoc{
+#listaDoc {
     padding: 10px;
     line-height: 30px;
     text-align: left;
@@ -335,6 +335,7 @@ footer img {
 main div img {
     padding: 20px;
 }
+
  /* fin paginas */
 
 /* comienza grid */
@@ -569,8 +570,6 @@ main div img {
 
     /* inicio responsive pagina seguros */
 
-
-
     #contenedorSeg {
         background-color:rgb(42, 105, 121);
         height: auto;
@@ -677,7 +676,7 @@ main div img {
         height: auto;
     }
 
-    #listaDoc{
+    #listaDoc {
         padding: 40px;
         text-align: left;
         margin-left: 80px;
