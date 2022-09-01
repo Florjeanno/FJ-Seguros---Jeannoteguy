@@ -15,4 +15,19 @@ main{
             }
     }
 }
-    
+@media screen and (max-width: 380px){
+    main{
+        .slide {
+            div{
+                div{
+                    img{
+                        height: 35vh;
+                        width: 80%;
+                        position: relative;
+                        left: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
