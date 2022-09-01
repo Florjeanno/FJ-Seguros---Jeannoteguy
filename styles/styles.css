@@ -7,12 +7,28 @@ header {
   padding: 10px;
   width: 100%;
 }
+header .tituloPag {
+  font-size: 32px;
+  color: rgba(241, 247, 245, 0.904);
+}
 
+@media screen and (max-width: 380px) {
+  header img {
+    width: 70px;
+    height: 70px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+}
 nav {
   margin-left: auto;
   border-radius: 6px !important;
 }
-nav ul {
+nav div .hamb {
+  background-color: rgba(241, 247, 245, 0.904);
+}
+nav div div ul {
   background-color: rgba(241, 247, 245, 0.904);
   border-radius: 6px !important;
   padding: 10px;
@@ -22,11 +38,11 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-nav ul li:hover {
+nav div div ul li:hover {
   transform: scale(1.15);
   transition: all 300ms;
 }
-nav ul li a {
+nav div div ul li a {
   text-decoration: none;
   border-radius: 6px;
   padding: 4px;
@@ -34,12 +50,26 @@ nav ul li a {
   background-color: rgb(42, 105, 121);
   color: rgba(241, 247, 245, 0.904) !important;
 }
-nav ul li a:hover {
+nav div div ul li a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(42, 105, 121) !important;
   border: 1px solid rgb(42, 105, 121);
 }
 
+@media screen and (max-width: 380px) {
+  nav {
+    display: none;
+  }
+  nav ul li {
+    padding: 5px !important;
+  }
+  nav ul li a {
+    padding-left: 10px !important;
+  }
+  .zindex {
+    z-index: 2;
+  }
+}
 #footer {
   background-color: rgb(245, 248, 248);
   display: flex;
@@ -76,6 +106,41 @@ nav ul li a:hover {
   height: 50px;
 }
 
+@media screen and (max-width: 380px) {
+  #footer {
+    background-color: rgb(245, 248, 248);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid rgb(42, 105, 121);
+  }
+  #footer .textofooter {
+    color: rgb(42, 105, 121);
+    line-height: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+  #footer .textofooter #redes {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+  }
+  #footer .textofooter #redes li a {
+    text-decoration: none;
+    color: rgb(42, 105, 121);
+    line-height: 40px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #footer .textofooter img {
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    margin-left: 9px;
+  }
+}
 .logoEm {
   background-color: rgb(218, 233, 232);
   border-radius: 6px;
@@ -88,6 +153,25 @@ nav ul li a:hover {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 380px) {
+  .logoEm {
+    height: 390px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 30px;
+  }
+  section img {
+    height: 105px;
+    width: 200px;
+  }
+}
 .subtitulos {
   background-color: rgb(218, 233, 232);
   color: rgb(42, 105, 121);
@@ -100,6 +184,11 @@ nav ul li a:hover {
   font-size: 22px;
 }
 
+@media screen and (max-width: 380px) {
+  .subtitulos {
+    margin-left: 80px;
+  }
+}
 #article {
   background-color: rgb(42, 105, 121);
 }
@@ -187,6 +276,34 @@ nav ul li a:hover {
   color: rgb(42, 105, 121);
 }
 
+@media screen and (max-width: 380px) {
+  .parrafo {
+    height: 900px;
+    padding: 20px 20px;
+    font: size 8px;
+    background-color: rgba(241, 247, 245, 0.904);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 10px;
+    text-align: center;
+  }
+  article p a {
+    text-decoration: none;
+    color: rgb(42, 105, 121);
+  }
+  .parrafo img {
+    height: 190px;
+    width: 270px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
 .contenedor {
   display: grid;
   grid-gap: 10px;
@@ -236,19 +353,32 @@ nav ul li a:hover {
   padding: 10px;
 }
 
+@media screen and (max-width: 380px) {
+  .contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: 120px 1770px 400px;
+    grid-template-columns: 100%;
+    height: 100vh;
+  }
+  .segContenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "carrusel" "consejos" "empresas";
+    grid-template-columns: 100%;
+    grid-template-rows: 220px 1000px 510px;
+    height: 100vh;
+  }
+}
 .slide {
   margin: 1px;
   border-radius: 6px;
   background-color: rgb(42, 105, 121);
 }
-
 .slide img {
   height: 62vh;
   width: 40%;
   position: relative;
   left: 400px;
-}
-
-.hamb {
-  background-color: rgba(241, 247, 245, 0.904);
 }/*# sourceMappingURL=styles.css.map */

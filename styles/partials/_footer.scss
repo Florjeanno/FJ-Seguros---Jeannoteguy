@@ -40,4 +40,47 @@
     }
 }
     
+
+@media screen and (max-width: 380px) {
+
+
+    #footer {
+        background-color: rgb(245, 248, 248);
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 3px solid rgb(42, 105, 121);
+        .textofooter {
+            color: rgb(42, 105, 121);
+            line-height: 40px;
+            justify-content: center;
+            text-align: center;
+            
+            #redes  { 
+                list-style-type: none;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                font-size: large;
+
+                li {
+                    a { 
+                        text-decoration: none;
+                        color: rgb(42, 105, 121);
+                        line-height: 40px;
+                        list-style-type: none;
+                        text-align: center;
+                    }
+                }
+            }
+            img {
+                width:300px;
+                height: 50px;
+                align-items: center;
+                margin-left: 9px;
+            }
+        }
+    }
+    
+}
     

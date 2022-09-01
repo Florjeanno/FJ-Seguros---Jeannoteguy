@@ -50,3 +50,29 @@
     grid-area: footer;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 380px) {
+    
+    .contenedor {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
+        grid-template-rows: 120px 1770px 400px;
+        grid-template-columns: 100%;
+        height: 100vh;
+    }
+
+    .segContenedor { 
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "carrusel"
+                             "consejos"
+                             "empresas";
+        grid-template-columns: 100%;
+        grid-template-rows: 220px 1000px 510px;
+        height: 100vh;
+    }
+}
