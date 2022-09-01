@@ -1,12 +1,18 @@
-.slide {
-    margin: 1px;
-    border-radius: 6px;
-    background-color: rgb(42, 105, 121);
-    img {
-        height: 62vh;
-        width: 40%;
-        position: relative;
-        left: 400px;
+main{
+    .slide {
+        margin: 1px;
+        border-radius: 6px;
+        background-color: rgb(42, 105, 121);
+            div{
+                div{
+                    img {
+                        height: 62vh;
+                        width: 40%;
+                        position: relative;
+                        left: 400px;
+                    }
+                }
+            }
     }
 }
     
