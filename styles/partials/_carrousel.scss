@@ -1,8 +1,8 @@
 main{
     .slide {
         margin: 1px;
-        border-radius: 6px;
-        background-color: rgb(42, 105, 121);
+        border-radius: $borderRadius;
+        background-color: $colorOscuro;
             div{
                 div{
                     img {

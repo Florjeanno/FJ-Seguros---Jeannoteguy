@@ -1,6 +1,6 @@
 .logoEm {
-    background-color: rgb(218, 233, 232);
-    border-radius: 6px;
+    background-color: $colorClaro;
+    border-radius: $borderRadius;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,7 +15,7 @@
     section{
         .logoEm {
             height: 390px;
-            border-radius: 6px;
+            border-radius: $borderRadius;
             display: flex;
             flex-direction: column;
             align-items: center;

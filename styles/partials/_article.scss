@@ -1,11 +1,11 @@
 #article {
-    background-color: rgb(42, 105, 121); 
+    background-color: $colorOscuro; 
     .parrafo {
         height: 180px;
         padding: 20px 20px ;
         font: size 10px; ;
-        background-color: rgba(241, 247, 245, 0.904);
-        border-radius: 6px;
+        background-color: $colorClaro;
+        border-radius: $borderRadius;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -15,11 +15,11 @@
         margin-left: 20px;
         div {
             a{
-                text-decoration: none;
-                color: rgb(42, 105, 121);
+                text-decoration: $link;
+                color: $colorOscuro;
                     img {
                         width: 200px;
-                        border-radius: 5px;
+                        border-radius: $borderRadius;
                         float: left;
                         padding: 1px;
                         margin: 15px;
@@ -33,18 +33,18 @@
             p {
                 margin-top: 20px;
                 a {
-                    text-decoration: none;
-                    color: rgb(42, 105, 121);
+                    text-decoration: $link;
+                    color: $colorOscuro;
                 }
             }
         }
         div {
            a {
-                text-decoration: none;
-                color: rgb(42, 105, 121);
+                text-decoration: $link;
+                color: $colorOscuro;
                 img {
                     width: 200px;
-                    border-radius: 5px;
+                    border-radius: $borderRadius;
                     float: left;
                     padding: 1px;
                     margin: 15px;
@@ -58,18 +58,18 @@
             p {
                 margin-top: 20px;
                 a{
-                    text-decoration: none;
-                    color: rgb(42, 105, 121);
+                    text-decoration: $link;
+                    color: $colorOscuro;
                 }
             }
         }
         div {
             a {
-                text-decoration: none;
-                color: rgb(42, 105, 121);
+                text-decoration: $link;
+                color: $colorOscuro;
                     img {
                         width: 200px;
-                        border-radius: 5px;
+                        border-radius: $borderRadius;
                          float: left;
                         padding: 1px;
                         margin: 15px;
@@ -83,8 +83,8 @@
             p {
                 margin-top: 20px;
                 a{
-                    text-decoration: none;
-                    color: rgb(42, 105, 121);
+                    text-decoration: $link;
+                    color: $colorOscuro;
                 }
             }
         }
@@ -97,8 +97,8 @@
         height: 900px;
         padding:20px 20px ;
         font: size 8px;
-        background-color: rgba(241, 247, 245, 0.904);
-        border-radius: 6px;
+        background-color: $colorClaro;
+        border-radius: $borderRadius;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -110,12 +110,12 @@
         text-align: center;
             div{
                 a{
-                    text-decoration: none;
-                    color: rgb(42, 105, 121);
+                    text-decoration: $link;
+                    color: $colorOscuro;
                     img {
                         height: 190px;
                         width:270px;
-                        border-radius: 5px;
+                        border-radius: $borderRadius;
                         text-align: center;
                     }
                 }

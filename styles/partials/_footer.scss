@@ -1,35 +1,35 @@
 #footer {
-        background-color: rgb(245, 248, 248);
+        background-color: $colorClaro;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 3px solid rgb(42, 105, 121);
+        border: 3px solid $colorOscuro;
     div {
         .textofooter {
-            color: rgb(42, 105, 121);
+            color: $colorOscuro;
             line-height: 40px;
             font-size: 16px;
         }
     }
     #redes { 
-        list-style-type: none;
+        list-style-type: $link;
         text-align: center;
         justify-content: center;
         li {
             a { 
-                text-decoration: none;
-                color: rgb(42, 105, 121);
+                text-decoration: $link;
+                color: $colorOscuro;
                 line-height: 40px;
-                list-style-type: none;
+                list-style-type: $link;
                 text-align: center;
             }
         }
         li {
             a { 
-                text-decoration: none;
-                color: rgb(42, 105, 121);
+                text-decoration: $link;
+                color: $colorOscuro;
                 line-height: 40px;
-                list-style-type: none;
+                list-style-type: $link;
                 text-align: center;
             }
         }
@@ -45,13 +45,13 @@
 
 
     #footer {
-        background-color: rgb(245, 248, 248);
+        background-color: $colorClaro;
         display: flex;
         flex-direction: column;
         padding: 20px;
-        border: 3px solid rgb(42, 105, 121);
+        border: 3px solid $colorOscuro;
         .textofooter {
-            color: rgb(42, 105, 121);
+            color: $colorOscuro;
             line-height: 40px;
             justify-content: center;
             text-align: center;
@@ -65,10 +65,10 @@
 
                 li {
                     a { 
-                        text-decoration: none;
-                        color: rgb(42, 105, 121);
+                        text-decoration: $link;
+                        color: $colorOscuro;
                         line-height: 40px;
-                        list-style-type: none;
+                        list-style-type: $link;
                         text-align: center;
                     }
                 }
