@@ -1,9 +1,6 @@
 header {
+    @include display(flex, row, wrap, center, flex-start);
     background-color: $colorOscuro;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:flex-start;
     padding: 10px;
     width: 100%;
     .tituloPag {

@@ -1,0 +1,12 @@
+%imagenArticle {
+    width: 200px;
+    border-radius: $borderRadius;
+    float: left;
+    padding: 1px;
+    margin: 15px;
+    transition: all 300ms;
+    box-shadow: 2px 0px 10px 0px;
+    &:hover {
+    transform: scale(1.15);
+    }
+}

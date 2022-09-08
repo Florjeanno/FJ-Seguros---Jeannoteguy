@@ -7,14 +7,12 @@ nav {
         }
         div {
             ul {
-            background-color: $colorClaro;
-            border-radius: $borderRadius !important;
-            padding: 10px;
-            width: 350px;
-            list-style-type: $link;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
+                @include display (flex, row, wrap, center, space-evenly);
+                background-color: $colorClaro;
+                border-radius: $borderRadius !important;
+                padding: 10px;
+                width: 350px;
+                list-style-type: $link;
                 li {
                     &:hover {
                     transform: scale(1.15);

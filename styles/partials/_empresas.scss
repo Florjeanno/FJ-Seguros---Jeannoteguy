@@ -1,9 +1,7 @@
 .logoEm {
+    @include display(flex, row, wrap, center, space-around);
     background-color: $colorClaro;
     border-radius: $borderRadius;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     position: relative;
     top: 15px;
     margin-right: 20px;
@@ -14,12 +12,9 @@
 @media screen and (max-width: 380px) {
     section{
         .logoEm {
+            @include display(flex, column, wrap, center, center);
             height: 390px;
             border-radius: $borderRadius;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             position: relative;
             top: 15px;
             margin-right: 20px;

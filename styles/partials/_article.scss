@@ -1,14 +1,12 @@
 #article {
     background-color: $colorOscuro; 
     .parrafo {
+        @include display(flex, row, wrap, center, center);
         height: 180px;
         padding: 20px 20px ;
-        font: size 10px; ;
+        font-size: 10px;
         background-color: $colorClaro;
         border-radius: $borderRadius;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         position: relative;
         top: 15px;
         margin-right: 20px;
@@ -18,18 +16,10 @@
                 text-decoration: $link;
                 color: $colorOscuro;
                     img {
-                        width: 200px;
-                        border-radius: $borderRadius;
-                        float: left;
-                        padding: 1px;
-                        margin: 15px;
-                        transition: all 300ms;
-                        box-shadow: 2px 0px 10px 0px;
-                        &:hover {
-                        transform: scale(1.15);
-                        }
+                        @extend %imagenArticle;
                     }
             }
+            
             p {
                 margin-top: 20px;
                 a {
@@ -43,16 +33,7 @@
                 text-decoration: $link;
                 color: $colorOscuro;
                 img {
-                    width: 200px;
-                    border-radius: $borderRadius;
-                    float: left;
-                    padding: 1px;
-                    margin: 15px;
-                    transition: all 300ms;
-                    box-shadow: 2px 0px 10px 0px;
-                    &:hover {
-                    transform: scale(1.15);
-                    }
+                    @extend %imagenArticle;
                 }
            }
             p {
@@ -68,16 +49,7 @@
                 text-decoration: $link;
                 color: $colorOscuro;
                     img {
-                        width: 200px;
-                        border-radius: $borderRadius;
-                         float: left;
-                        padding: 1px;
-                        margin: 15px;
-                        transition: all 300ms;
-                        box-shadow: 2px 0px 10px 0px;
-                        &:hover {
-                        transform: scale(1.15);
-                        }
+                        @extend %imagenArticle;
                     }
             }
             p {
@@ -91,23 +63,20 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 380px){
     #article{
         .parrafo {
-        height: 900px;
-        padding:20px 20px ;
-        font: size 8px;
-        background-color: $colorClaro;
-        border-radius: $borderRadius;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        top: 15px;
-        margin-right: 20px;
-        margin-left: 20px;
-        gap: 10px;
-        text-align: center;
+            @include display(flex, column, wrap, center, center);
+            height: 900px;
+            padding:20px 20px;
+            font-size: 8px;
+            background-color: $colorClaro;
+            border-radius: $borderRadius;
+            top: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            gap: 10px;
+            text-align: center;
             div{
                 a{
                     text-decoration: $link;
@@ -119,7 +88,6 @@
                         text-align: center;
                     }
                 }
-
             }
         }
     }
