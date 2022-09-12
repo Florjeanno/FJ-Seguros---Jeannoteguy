@@ -1,0 +1,44 @@
+#contenedorSeg{
+    background-color:rgb(42, 105, 121);
+    height: 930px;
+    #TituloSeg{
+        text-align:center;
+        position: relative;
+        top: 20px;
+        color: rgb(218, 233, 232);
+        font-size: 30px;
+    }
+    .divSeg {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        margin-top: 120px;
+        .segPart {
+            background-color:rgb(218, 233, 232);
+            color:rgb(42, 105, 121);
+            padding: 20px;
+            border-radius: 6px;
+            line-height: 30px;
+            display: flex;
+            justify-content:space-between ;
+            width: 20%;
+        }
+        #part {
+            flex-direction: column;
+            text-align: left;
+        
+            .titSeg {
+            text-align: center;
+            font-size: 20px;
+            }
+            .lipart {
+            margin-left: 40px;
+            }
+        }
+        #emp {
+        flex-direction: column;
+        }
+    }
+    
+ 
+}

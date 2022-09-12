@@ -1,0 +1,39 @@
+#mainContact{
+    height: 930px;
+    background-color: rgb(42, 105, 121);
+    display: flex;
+    flex-direction: column;
+    .titForm {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .divForm {
+        padding: 10px;
+        position: relative;
+        .form {
+            width: 40%;
+            background-color:rgb(218, 233, 232);
+            padding: 40px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 6px;
+            color:rgb(42, 105, 121);
+            text-align: center;
+            line-height: 40px;
+            .elementosForm {
+                width: 95%;
+                padding: 10px;
+                border-radius: 6px;
+                border:  1px solid rgb(42, 105, 121);
+                font-size: 16px;
+                line-height: 10px;
+            }
+            .botones {
+                width: 45%;
+                padding: 10px;
+                margin: 16px 8px;
+                color:rgb(42, 105, 121);
+            }
+        }    
+    }
+}  
