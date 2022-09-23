@@ -1,8 +1,8 @@
 main{
     .slide {
         margin: 1px;
-        border-radius: $borderRadius;
-        background-color: $colorOscuro;
+        border-radius: map-get($bordes, borderRadius);
+        background-color: map-get($Colores, colorOscuro);
             div{
                 div{
                     img {

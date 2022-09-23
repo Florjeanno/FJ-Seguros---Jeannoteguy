@@ -1,33 +1,33 @@
 #footer {
     @include display(flex, row, wrap, center, space-between);
-    background-color: $colorClaro;
-    border: 3px solid $colorOscuro;
+    background-color: map-get($Colores, colorClaro);
+    border: 3px solid map-get($Colores, colorOscuro);
     div {
         .textofooter {
-            color: $colorOscuro;
+            color: map-get($Colores, colorOscuro);
             line-height: 40px;
             font-size: 16px;
         }
     }
     #redes { 
-        list-style-type: $link;
+        list-style-type: map-get($links, link);
         text-align: center;
         justify-content: center;
         li {
             a { 
-                text-decoration: $link;
-                color: $colorOscuro;
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
                 line-height: 40px;
-                list-style-type: $link;
+                list-style-type: map-get($links, link);
                 text-align: center;
             }
         }
         li {
             a { 
-                text-decoration: $link;
-                color: $colorOscuro;
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
                 line-height: 40px;
-                list-style-type: $link;
+                list-style-type: map-get($links, link);
                 text-align: center;
             }
         }
@@ -44,11 +44,11 @@
 
     #footer {
         @include display (flex, column, wrap, center, center);
-        background-color: $colorClaro;
+        background-color: map-get($Colores, colorClaro);
         padding: 20px;
-        border: 3px solid $colorOscuro;
+        border: 3px solid map-get($Colores, colorOscuro);
         .textofooter {
-            color: $colorOscuro;
+            color: map-get($Colores, colorOscuro);
             line-height: 40px;
             justify-content: center;
             text-align: center;
@@ -62,10 +62,10 @@
 
                 li {
                     a { 
-                        text-decoration: $link;
-                        color: $colorOscuro;
+                        text-decoration: map-get($links, link);
+                        color: map-get($Colores, colorOscuro);
                         line-height: 40px;
-                        list-style-type: $link;
+                        list-style-type: map-get($links, link);
                         text-align: center;
                     }
                 }

@@ -1,77 +1,76 @@
 #article {
-    background-color: $colorOscuro; 
+    background-color: map-get($Colores, colorOscuro); 
     .parrafo {
-        @include display(flex, row, wrap, center, center);
+        @include display(flex, row, wrap, center, space-around);
         height: 180px;
         padding: 20px 20px ;
         font-size: 10px;
-        background-color: $colorClaro;
-        border-radius: $borderRadius;
+        background-color: map-get($Colores, colorClaro);
+        border-radius: map-get($bordes, borderRadius);
         position: relative;
         top: 15px;
         margin-right: 20px;
         margin-left: 20px;
         div {
             a{
-                text-decoration: $link;
-                color: $colorOscuro;
-                    img {
-                        @extend %imagenArticle;
-                    }
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
+                img {
+                    @extend %imagenArticle;
+                }
             }
-            
             p {
                 margin-top: 20px;
                 a {
-                    text-decoration: $link;
-                    color: $colorOscuro;
+                    text-decoration: map-get($links, link);
+                    color: map-get($Colores, colorOscuro);
                 }
             }
         }
         div {
            a {
-                text-decoration: $link;
-                color: $colorOscuro;
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
                 img {
                     @extend %imagenArticle;
                 }
-           }
+            }
             p {
                 margin-top: 20px;
-                a{
-                    text-decoration: $link;
-                    color: $colorOscuro;
+                a {
+                    text-decoration: map-get($links, link);
+                    color: map-get($Colores, colorOscuro);
                 }
             }
         }
         div {
             a {
-                text-decoration: $link;
-                color: $colorOscuro;
-                    img {
-                        @extend %imagenArticle;
-                    }
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
+                img {
+                    @extend %imagenArticle;
+                }
             }
             p {
                 margin-top: 20px;
                 a{
-                    text-decoration: $link;
-                    color: $colorOscuro;
+                    text-decoration: map-get($links, link);
+                    color: map-get($Colores, colorOscuro);
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
     #article{
         .parrafo {
             @include display(flex, column, wrap, center, center);
             height: 900px;
             padding:20px 20px;
             font-size: 8px;
-            background-color: $colorClaro;
-            border-radius: $borderRadius;
+            background-color: map-get($Colores, colorClaro);
+            border-radius: map-get($bordes, borderRadius);
             top: 15px;
             margin-right: 20px;
             margin-left: 20px;
@@ -79,12 +78,12 @@
             text-align: center;
             div{
                 a{
-                    text-decoration: $link;
-                    color: $colorOscuro;
+                    text-decoration: map-get($links, link);
+                    color: map-get($Colores, colorOscuro);
                     img {
                         height: 190px;
                         width:270px;
-                        border-radius: $borderRadius;
+                        border-radius: map-get($bordes, borderRadius);
                         text-align: center;
                     }
                 }

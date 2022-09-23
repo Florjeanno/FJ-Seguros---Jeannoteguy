@@ -1,18 +1,31 @@
-<<<<<<< Updated upstream
-=======
-body {
-    background-color: rgba(241, 247, 245, 0.904);
-    font-family: 'Marcellus', serif;
+#article .parrafo div a img {
+  width: 200px;
+  border-radius: 6px;
+  float: left;
+  padding: 1px;
+  margin: 15px;
+  transition: all 300ms;
+  box-shadow: 2px 0px 10px 0px;
+}
+#article .parrafo div a img:hover {
+  transform: scale(1.15);
 }
 
+body {
+  background-color: rgba(241, 247, 245, 0.904);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
->>>>>>> Stashed changes
 header {
   background-color: rgb(42, 105, 121);
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(42, 105, 121);
   padding: 10px;
   width: 100%;
 }
@@ -21,7 +34,6 @@ header .tituloPag {
   color: rgba(241, 247, 245, 0.904);
 }
 
-<<<<<<< Updated upstream
 @media screen and (max-width: 380px) {
   header img {
     width: 70px;
@@ -30,11 +42,6 @@ header .tituloPag {
   header h1 {
     font-size: 20px;
   }
-=======
-h1 {
-    color:rgba(241, 247, 245, 0.904);
-    font-family: 'Montserrat', sans-serif;
->>>>>>> Stashed changes
 }
 nav {
   margin-left: auto;
@@ -44,14 +51,19 @@ nav div .hamb {
   background-color: rgba(241, 247, 245, 0.904);
 }
 nav div div ul {
+  background-color: rgb(42, 105, 121);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 100%;
   background-color: rgba(241, 247, 245, 0.904);
   border-radius: 6px !important;
   padding: 10px;
   width: 350px;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 nav div div ul li:hover {
   transform: scale(1.15);
@@ -85,11 +97,56 @@ nav div div ul li a:hover {
     z-index: 2;
   }
 }
-#footer {
-  background-color: rgb(245, 248, 248);
+#mainContact {
+  height: 930px;
+  background-color: rgb(42, 105, 121);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+#mainContact .titForm {
+  margin-top: 20px;
+  text-align: center;
+}
+#mainContact .divForm {
+  padding: 10px;
+  position: relative;
+}
+#mainContact .divForm .form {
+  width: 40%;
+  background-color: rgb(218, 233, 232);
+  padding: 40px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  color: rgb(42, 105, 121);
+  text-align: center;
+  line-height: 40px;
+}
+#mainContact .divForm .form .elementosForm {
+  width: 95%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(42, 105, 121);
+  font-size: 16px;
+  line-height: 10px;
+}
+#mainContact .divForm .form .botones {
+  width: 45%;
+  padding: 10px;
+  margin: 16px 8px;
+  color: rgb(42, 105, 121);
+}
+
+#footer {
+  background-color: rgb(42, 105, 121);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(241, 247, 245, 0.904);
   border: 3px solid rgb(42, 105, 121);
 }
 #footer div .textofooter {
@@ -123,9 +180,15 @@ nav div div ul li a:hover {
 
 @media screen and (max-width: 380px) {
   #footer {
-    background-color: rgb(245, 248, 248);
+    background-color: rgb(42, 105, 121);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(241, 247, 245, 0.904);
     padding: 20px;
     border: 3px solid rgb(42, 105, 121);
   }
@@ -157,70 +220,34 @@ nav div div ul li a:hover {
   }
 }
 .logoEm {
-  background-color: rgb(218, 233, 232);
-  border-radius: 6px;
+  background-color: rgb(42, 105, 121);
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(241, 247, 245, 0.904);
+  border-radius: 6px;
   position: relative;
   top: 15px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-<<<<<<< Updated upstream
 @media screen and (max-width: 380px) {
   section .logoEm {
-    height: 390px;
-=======
-/* fin pagina index */
-
-
-/* comienzo paginas */
-
-.subrayado{
-    text-decoration-line: underline;
-}
-
-/* pagina seguros */ 
-
-#contenedorSeg{
-  background-color:rgb(42, 105, 121);
-  height: 930px;
-  background-image:
-  url(../images/Logo\ Fj\ Seguros.png);
-  background-repeat: repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-    
-}
-
-#TituloSeg{
-    text-align:center;
-    position: relative;
-    top: 20px;
-    color: rgb(218, 233, 232);
-    font-size: 30px;
-}
-
-.divSeg {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    margin-top: 120px;
-}
-
-.segPart {
-    background-color:rgb(218, 233, 232);
-    color:rgb(42, 105, 121);
-    padding: 20px;
->>>>>>> Stashed changes
-    border-radius: 6px;
+    background-color: rgb(42, 105, 121);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: 390px;
+    border-radius: 6px;
     position: relative;
     top: 15px;
     margin-right: 20px;
@@ -233,7 +260,7 @@ nav div div ul li a:hover {
   }
 }
 .subtitulos {
-  background-color: rgb(218, 233, 232);
+  background-color: rgba(241, 247, 245, 0.904);
   color: rgb(42, 105, 121);
   text-align: center;
   width: 220px;
@@ -253,14 +280,19 @@ nav div div ul li a:hover {
   background-color: rgb(42, 105, 121);
 }
 #article .parrafo {
+  background-color: rgb(42, 105, 121);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
   height: 180px;
   padding: 20px 20px;
-  font: size 10px;
+  font-size: 10px;
   background-color: rgba(241, 247, 245, 0.904);
   border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   top: 15px;
   margin-right: 20px;
@@ -270,18 +302,6 @@ nav div div ul li a:hover {
   text-decoration: none;
   color: rgb(42, 105, 121);
 }
-#article .parrafo div a img {
-  width: 200px;
-  border-radius: 5px;
-  float: left;
-  padding: 1px;
-  margin: 15px;
-  transition: all 300ms;
-  box-shadow: 2px 0px 10px 0px;
-}
-#article .parrafo div a img:hover {
-  transform: scale(1.15);
-}
 #article .parrafo div p {
   margin-top: 20px;
 }
@@ -293,18 +313,6 @@ nav div div ul li a:hover {
   text-decoration: none;
   color: rgb(42, 105, 121);
 }
-#article .parrafo div a img {
-  width: 200px;
-  border-radius: 5px;
-  float: left;
-  padding: 1px;
-  margin: 15px;
-  transition: all 300ms;
-  box-shadow: 2px 0px 10px 0px;
-}
-#article .parrafo div a img:hover {
-  transform: scale(1.15);
-}
 #article .parrafo div p {
   margin-top: 20px;
 }
@@ -315,18 +323,6 @@ nav div div ul li a:hover {
 #article .parrafo div a {
   text-decoration: none;
   color: rgb(42, 105, 121);
-}
-#article .parrafo div a img {
-  width: 200px;
-  border-radius: 5px;
-  float: left;
-  padding: 1px;
-  margin: 15px;
-  transition: all 300ms;
-  box-shadow: 2px 0px 10px 0px;
-}
-#article .parrafo div a img:hover {
-  transform: scale(1.15);
 }
 #article .parrafo div p {
   margin-top: 20px;
@@ -338,15 +334,19 @@ nav div div ul li a:hover {
 
 @media screen and (max-width: 380px) {
   #article .parrafo {
-    height: 900px;
-    padding: 20px 20px;
-    font: size 8px;
-    background-color: rgba(241, 247, 245, 0.904);
-    border-radius: 6px;
+    background-color: rgb(42, 105, 121);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: 900px;
+    padding: 20px 20px;
+    font-size: 8px;
+    background-color: rgba(241, 247, 245, 0.904);
+    border-radius: 6px;
     top: 15px;
     margin-right: 20px;
     margin-left: 20px;
@@ -360,7 +360,7 @@ nav div div ul li a:hover {
   #article .parrafo div a img {
     height: 190px;
     width: 270px;
-    border-radius: 5px;
+    border-radius: 6px;
     text-align: center;
   }
 }
@@ -450,4 +450,93 @@ main .slide div div img {
     position: relative;
     left: 40px;
   }
+}
+#contenedorSeg {
+  background-color: rgb(42, 105, 121);
+  height: 930px;
+}
+#contenedorSeg img {
+  width: 100%;
+  height: 100%;
+}
+#contenedorSeg #TituloSeg {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: rgb(218, 233, 232);
+  font-size: 30px;
+}
+#contenedorSeg .divSeg {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 120px;
+}
+#contenedorSeg .divSeg .segPart {
+  background-color: rgb(218, 233, 232);
+  color: rgb(42, 105, 121);
+  padding: 20px;
+  border-radius: 6px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+#contenedorSeg .divSeg #part {
+  flex-direction: column;
+  text-align: left;
+}
+#contenedorSeg .divSeg #part .titSeg {
+  text-align: center;
+  font-size: 20px;
+}
+#contenedorSeg .divSeg #part .lipart {
+  margin-left: 40px;
+}
+#contenedorSeg .divSeg #emp {
+  flex-direction: column;
+}
+
+#mainSobre {
+  height: 930px;
+  color: rgb(218, 233, 232);
+}
+#mainSobre .divSobre {
+  text-align: center;
+  line-height: 70px;
+  position: relative;
+  top: 20px;
+  margin: auto;
+}
+
+#listaDoc {
+  padding: 10px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 550px;
+}
+#listaDoc .divDoc {
+  text-align: center;
+  justify-content: center;
+  color: rgb(218, 233, 232);
+  position: relative;
+  margin-top: 20px;
+}
+
+#mainDatos {
+  height: 930px;
+}
+#mainDatos .datosPedir {
+  text-align: center;
+  justify-content: center;
+  color: rgb(218, 233, 232);
+  position: relative;
+  margin-top: 20px;
+  line-height: 30px;
+}
+#mainDatos .datosPedir #idDocDatos {
+  padding: 10px;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 350px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 .logoEm {
     @include display(flex, row, wrap, center, space-around);
-    background-color: $colorClaro;
-    border-radius: $borderRadius;
+    background-color: map-get($Colores, colorClaro);
+    border-radius: map-get($bordes, borderRadius);
     position: relative;
     top: 15px;
     margin-right: 20px;
@@ -14,7 +14,7 @@
         .logoEm {
             @include display(flex, column, wrap, center, center);
             height: 390px;
-            border-radius: $borderRadius;
+            border-radius: map-get($bordes, borderRadius);
             position: relative;
             top: 15px;
             margin-right: 20px;

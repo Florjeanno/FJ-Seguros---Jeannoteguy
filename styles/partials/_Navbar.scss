@@ -1,34 +1,34 @@
 nav {
     margin-left: auto;
-    border-radius: $borderRadius !important;
+    border-radius: map-get($bordes, borderRadius) !important;
     div {
         .hamb {
-            background-color: $colorClaro;
+            background-color: map-get($Colores, colorClaro);
         }
         div {
             ul {
                 @include display (flex, row, wrap, center, space-evenly);
-                background-color: $colorClaro;
-                border-radius: $borderRadius !important;
+                background-color: map-get($Colores, colorClaro);
+                border-radius: map-get($bordes, borderRadius) !important;
                 padding: 10px;
                 width: 350px;
-                list-style-type: $link;
+                list-style-type: map-get($links, link);
                 li {
                     &:hover {
                     transform: scale(1.15);
                     transition: all 300ms;
                      }
                     a {
-                        text-decoration: $link;
-                        border-radius: $borderRadius;
+                        text-decoration: map-get($links, link);
+                        border-radius: map-get($bordes, borderRadius);
                         padding: 4px;
                         font-size: 20px !important;
-                        background-color: $colorOscuro;
-                        color: $colorClaro !important;
+                        background-color: map-get($Colores, colorOscuro);
+                        color: map-get($Colores, colorClaro) !important;
                         &:hover {
-                        background-color: $colorClaro;
-                        color: $colorOscur !important;
-                        border: 1px solid $colorOscuro;
+                        background-color: map-get($Colores, colorClaro);
+                        color: map-get($Colores, colorOscuro) !important;
+                        border: 1px solid map-get($Colores, colorOscuro);
                         }
                     }
                 }
