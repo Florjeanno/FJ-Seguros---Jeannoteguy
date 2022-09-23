@@ -1,6 +1,6 @@
 %imagenArticle {
     width: 200px;
-    border-radius: $borderRadius;
+    border-radius: map-get($bordes, borderRadius);
     float: left;
     padding: 1px;
     margin: 15px;
