@@ -4,42 +4,37 @@
         @include display(flex, row, wrap, center, space-around);
         height: 180px;
         padding: 20px 20px ;
-        font-size: 10px;
+        font-size: 15px;
         background-color: map-get($Colores, colorClaro);
         border-radius: map-get($bordes, borderRadius);
         position: relative;
         top: 15px;
         margin-right: 20px;
         margin-left: 20px;
-        div {
-            a{
-                text-decoration: map-get($links, link);
-                color: map-get($Colores, colorOscuro);
-                img {
-                    @extend %imagenArticle;
-                }
+        div { 
+            img {
+                @extend %imagenArticle;
             }
+            
             p {
                 margin-top: 20px;
                 a {
-                    text-decoration: map-get($links, link);
-                    color: map-get($Colores, colorOscuro);
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
                 }
+                
             }
         }
         div {
-           a {
-                text-decoration: map-get($links, link);
-                color: map-get($Colores, colorOscuro);
-                img {
-                    @extend %imagenArticle;
-                }
+            img {
+                @extend %imagenArticle;
             }
+            
             p {
                 margin-top: 20px;
                 a {
-                    text-decoration: map-get($links, link);
-                    color: map-get($Colores, colorOscuro);
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
                 }
             }
         }
@@ -54,8 +49,8 @@
             p {
                 margin-top: 20px;
                 a{
-                    text-decoration: map-get($links, link);
                     color: map-get($Colores, colorOscuro);
+                    text-decoration: map-get($links, link);
                 }
             }
         }
@@ -68,7 +63,7 @@
             @include display(flex, column, wrap, center, center);
             height: 900px;
             padding:20px 20px;
-            font-size: 8px;
+            font-size: 14px;
             background-color: map-get($Colores, colorClaro);
             border-radius: map-get($bordes, borderRadius);
             top: 15px;
@@ -99,4 +94,3 @@
         
         
     
-
