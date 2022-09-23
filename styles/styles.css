@@ -104,6 +104,7 @@ nav div div ul li a:hover {
   flex-direction: column;
 }
 #mainContact .titForm {
+  color: rgba(241, 247, 245, 0.904);
   margin-top: 20px;
   text-align: center;
 }
@@ -113,7 +114,7 @@ nav div div ul li a:hover {
 }
 #mainContact .divForm .form {
   width: 40%;
-  background-color: rgb(218, 233, 232);
+  background-color: rgba(241, 247, 245, 0.904);
   padding: 40px;
   margin: auto;
   margin-top: 10px;
@@ -509,14 +510,14 @@ main .slide div div img {
   margin: auto;
 }
 
-#mainDoc0 .divDoc {
+#docoblig .divDoc {
   color: rgba(241, 247, 245, 0.904);
   text-align: center;
   justify-content: center;
   position: relative;
   margin-top: 20px;
 }
-#mainDoc0 .divDoc #listaDoc {
+#docoblig .divDoc #listaDoc {
   padding: 10px;
   line-height: 30px;
   text-align: left;
@@ -547,6 +548,6 @@ main .slide div div img {
 #contactarse .divDat {
   text-align: center;
   line-height: 50px;
-  color: rgb(218, 233, 232);
+  color: rgba(241, 247, 245, 0.904);
   padding: 20px;
 }/*# sourceMappingURL=styles.css.map */

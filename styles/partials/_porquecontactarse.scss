@@ -3,7 +3,7 @@
     .divDat {
         text-align: center;
         line-height: 50px;
-        color: rgb(218, 233, 232);
+        color: map-get($Colores, colorClaro);
         padding: 20px;
     }
 }
