@@ -1,13 +1,15 @@
-#listaDoc {
-     padding: 10px;
-     line-height: 30px;
-     text-align: left;
-     margin-left: 550px;
+#mainDoc0 {
     .divDoc {
+        color: map-get($Colores, colorClaro);
         text-align: center;
         justify-content: center;
-        color: rgb(218, 233, 232);
         position: relative;
         margin-top: 20px;
-    }
+        #listaDoc {
+            padding: 10px;
+            line-height: 30px;
+            text-align: left;
+            margin-left: 550px;
+        }
+    }   
 }

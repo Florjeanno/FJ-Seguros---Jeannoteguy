@@ -509,18 +509,18 @@ main .slide div div img {
   margin: auto;
 }
 
-#listaDoc {
+#mainDoc0 .divDoc {
+  color: rgba(241, 247, 245, 0.904);
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+#mainDoc0 .divDoc #listaDoc {
   padding: 10px;
   line-height: 30px;
   text-align: left;
   margin-left: 550px;
-}
-#listaDoc .divDoc {
-  text-align: center;
-  justify-content: center;
-  color: rgb(218, 233, 232);
-  position: relative;
-  margin-top: 20px;
 }
 
 #mainDatos {
@@ -539,4 +539,14 @@ main .slide div div img {
   line-height: 60px;
   text-align: left;
   margin-left: 350px;
+}
+
+#contactarse {
+  height: 930px;
+}
+#contactarse .divDat {
+  text-align: center;
+  line-height: 50px;
+  color: rgb(218, 233, 232);
+  padding: 20px;
 }/*# sourceMappingURL=styles.css.map */
