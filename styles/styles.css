@@ -73,7 +73,7 @@ nav div div ul li a {
   text-decoration: none;
   border-radius: 6px;
   padding: 4px;
-  font-size: 20px !important;
+  font-size: 18px !important;
   background-color: rgb(42, 105, 121);
   color: rgba(241, 247, 245, 0.904) !important;
 }
@@ -509,6 +509,10 @@ main .slide div div img {
   position: relative;
   margin-top: 20px;
 }
+#docoblig .divDoc img {
+  border-radius: 6px;
+  box-shadow: 2px 0px 10px 0px;
+}
 #docoblig .divDoc #listaDoc {
   padding: 10px;
   line-height: 30px;
@@ -527,6 +531,10 @@ main .slide div div img {
   margin-top: 20px;
   line-height: 30px;
 }
+#mainDatos .datosPedir img {
+  border-radius: 6px;
+  box-shadow: 2px 0px 10px 0px;
+}
 #mainDatos .datosPedir #idDocDatos {
   padding: 10px;
   line-height: 60px;
@@ -542,4 +550,8 @@ main .slide div div img {
   line-height: 50px;
   color: rgba(241, 247, 245, 0.904);
   padding: 20px;
+}
+#contactarse .divDat img {
+  border-radius: 6px;
+  box-shadow: 2px 0px 10px 0px;
 }/*# sourceMappingURL=styles.css.map */

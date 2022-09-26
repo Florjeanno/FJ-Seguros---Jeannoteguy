@@ -5,5 +5,9 @@
         line-height: 50px;
         color: map-get($Colores, colorClaro);
         padding: 20px;
+        img {
+            border-radius: 6px;
+            box-shadow: 2px 0px 10px 0px;
+        }
     }
 }

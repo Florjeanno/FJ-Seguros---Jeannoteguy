@@ -5,6 +5,10 @@
         justify-content: center;
         position: relative;
         margin-top: 20px;
+        img {
+            border-radius: 6px;
+            box-shadow: 2px 0px 10px 0px;
+        }
         #listaDoc {
             padding: 10px;
             line-height: 30px;
