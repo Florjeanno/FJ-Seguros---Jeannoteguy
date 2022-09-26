@@ -235,6 +235,7 @@ nav div div ul li a:hover {
   top: 15px;
   margin-right: 20px;
   margin-left: 20px;
+  width: 97%;
 }
 
 @media screen and (max-width: 380px) {
@@ -267,7 +268,7 @@ nav div div ul li a:hover {
   width: 220px;
   border-radius: 6px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 24px;
   padding: 2px;
   font-size: 22px;
 }
@@ -286,18 +287,18 @@ nav div div ul li a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 10px;
   width: 100%;
-  height: 180px;
-  padding: 20px 20px;
+  height: 198px;
   font-size: 15px;
   background-color: rgba(241, 247, 245, 0.904);
   border-radius: 6px;
   position: relative;
   top: 15px;
-  margin-right: 20px;
   margin-left: 20px;
+  margin-right: 20px;
+  width: 97%;
 }
 #article .parrafo div p {
   margin-top: 20px;
@@ -430,10 +431,11 @@ main .slide {
   background-color: rgb(42, 105, 121);
 }
 main .slide div div img {
-  height: 62vh;
+  height: 60vh;
   width: 40%;
   position: relative;
   left: 400px;
+  top: 10px;
 }
 
 @media screen and (max-width: 380px) {
