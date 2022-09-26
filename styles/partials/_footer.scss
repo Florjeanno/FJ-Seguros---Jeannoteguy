@@ -2,33 +2,29 @@
     @include display(flex, row, wrap, center, space-between);
     background-color: map-get($Colores, colorClaro);
     border: 3px solid map-get($Colores, colorOscuro);
-    div {
         .textofooter {
             color: map-get($Colores, colorOscuro);
             line-height: 40px;
             font-size: 16px;
         }
-    }
     #redes { 
         list-style-type: map-get($links, link);
-        text-align: center;
-        justify-content: center;
         li {
-            a { 
-                text-decoration: map-get($links, link);
-                color: map-get($Colores, colorOscuro);
-                line-height: 40px;
-                list-style-type: map-get($links, link);
+            i{
+                background-color: map-get($Colores, colorOscuro);
+                color: map-get($Colores, colorClaro);
+                border-radius: 30%;
+                width: 28px;
+                height: 28px;
+                font-size: 28px;
+                justify-content: center;
                 text-align: center;
+                
             }
-        }
-        li {
             a { 
                 text-decoration: map-get($links, link);
                 color: map-get($Colores, colorOscuro);
                 line-height: 40px;
-                list-style-type: map-get($links, link);
-                text-align: center;
             }
         }
     }
@@ -45,39 +41,25 @@
     #footer {
         @include display (flex, column, wrap, center, center);
         background-color: map-get($Colores, colorClaro);
-        padding: 20px;
         border: 3px solid map-get($Colores, colorOscuro);
-        .textofooter {
-            color: map-get($Colores, colorOscuro);
-            line-height: 40px;
-            justify-content: center;
+            .textofooter {
             text-align: center;
-            
-            #redes { 
-                list-style-type: none;
+            } 
+        #redes { 
+            padding: 0%;
+            li {
                 text-align: center;
-                align-items: center;
-                justify-content: center;
-                font-size: large;
-
-                li {
-                    a { 
-                        text-decoration: map-get($links, link);
-                        color: map-get($Colores, colorOscuro);
-                        line-height: 40px;
-                        list-style-type: map-get($links, link);
-                        text-align: center;
-                    }
+                i{
+                background-color: map-get($Colores, colorOscuro);
+                color: map-get($Colores, colorClaro);
+                border-radius: map-get($bordes, border-radius);
                 }
             }
-            img {
-                width:300px;
-                height: 50px;
-                align-items: center;
-                margin-left: 9px;
-            }
+        }   
+        img {
+            width: 300px;
+            height: 50px;
         }
-    }
-    
+    } 
 }
     

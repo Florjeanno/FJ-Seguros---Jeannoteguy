@@ -150,29 +150,28 @@ nav div div ul li a:hover {
   background-color: rgba(241, 247, 245, 0.904);
   border: 3px solid rgb(42, 105, 121);
 }
-#footer div .textofooter {
+#footer .textofooter {
   color: rgb(42, 105, 121);
   line-height: 40px;
   font-size: 16px;
 }
 #footer #redes {
   list-style-type: none;
-  text-align: center;
+}
+#footer #redes li i {
+  background-color: rgb(42, 105, 121);
+  color: rgba(241, 247, 245, 0.904);
+  border-radius: 30%;
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
   justify-content: center;
-}
-#footer #redes li a {
-  text-decoration: none;
-  color: rgb(42, 105, 121);
-  line-height: 40px;
-  list-style-type: none;
   text-align: center;
 }
 #footer #redes li a {
   text-decoration: none;
   color: rgb(42, 105, 121);
   line-height: 40px;
-  list-style-type: none;
-  text-align: center;
 }
 #footer img {
   width: 350px;
@@ -190,34 +189,24 @@ nav div div ul li a:hover {
     padding: 10px;
     width: 100%;
     background-color: rgba(241, 247, 245, 0.904);
-    padding: 20px;
     border: 3px solid rgb(42, 105, 121);
   }
   #footer .textofooter {
-    color: rgb(42, 105, 121);
-    line-height: 40px;
-    justify-content: center;
     text-align: center;
   }
-  #footer .textofooter #redes {
-    list-style-type: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
+  #footer #redes {
+    padding: 0%;
   }
-  #footer .textofooter #redes li a {
-    text-decoration: none;
-    color: rgb(42, 105, 121);
-    line-height: 40px;
-    list-style-type: none;
+  #footer #redes li {
     text-align: center;
   }
-  #footer .textofooter img {
+  #footer #redes li i {
+    background-color: rgb(42, 105, 121);
+    color: rgba(241, 247, 245, 0.904);
+  }
+  #footer img {
     width: 300px;
     height: 50px;
-    align-items: center;
-    margin-left: 9px;
   }
 }
 .logoEm {
@@ -243,22 +232,24 @@ nav div div ul li a:hover {
     background-color: rgb(42, 105, 121);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     padding: 10px;
     width: 100%;
-    height: 390px;
+    background-color: rgba(241, 247, 245, 0.904);
+    height: 410px;
     border-radius: 6px;
     position: relative;
     top: 15px;
     margin-right: 20px;
     margin-left: 20px;
     gap: 30px;
+    width: 90%;
   }
   section .logoEm img {
-    height: 105px;
-    width: 200px;
+    height: 100px;
+    width: 230px;
   }
 }
 .subtitulos {
@@ -346,6 +337,7 @@ nav div div ul li a:hover {
     margin-left: 20px;
     gap: 10px;
     text-align: center;
+    width: 90%;
   }
   #article .parrafo div a {
     text-decoration: none;
