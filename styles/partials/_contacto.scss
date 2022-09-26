@@ -10,7 +10,6 @@
     }
     .divForm {
         padding: 10px;
-        position: relative;
         .form {
             width: 40%;
             background-color:map-get($Colores, colorClaro);
@@ -24,7 +23,7 @@
             .elementosForm {
                 width: 95%;
                 padding: 10px;
-                border-radius: 6px;
+                border-radius: map-get($bordes, borderRadius);
                 border:  1px solid map-get($Colores, colorOscuro);
                 font-size: 16px;
                 line-height: 10px;
@@ -34,7 +33,34 @@
                 padding: 10px;
                 margin: 16px 8px;
                 color:map-get($Colores, colorOscuro);
+                border-radius: map-get($bordes, borderRadius);
+                border: 1px solid map-get($Colores, colorOscuro);
+                box-shadow: 2px 2px;
             }
         }    
     }
 }  
+
+@media screen and (max-width: 380px) {
+    #mainContact{
+        height: 1770px;
+        .divForm {
+            // padding: 10px;
+            .form {
+                width: 90%;
+                background-color:map-get($Colores, colorClaro);
+                margin-top: 20px;
+                line-height: 50px;
+                .elementosForm {
+                    padding: 15px;
+                }
+                .botones {
+                    width: 60%;
+                    padding: 5px;
+                    margin: 16px 8px;
+                    color:map-get($Colores, colorOscuro);
+                }
+            } 
+        }  
+    }
+}
