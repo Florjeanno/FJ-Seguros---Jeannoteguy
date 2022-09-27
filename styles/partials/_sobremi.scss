@@ -7,8 +7,24 @@
         position: relative;
         top: 20px;
         margin: auto;
+        .subrayado{
+            text-decoration-line: underline;
+        }
     }
+}
 
+@media screen and (max-width: 380px) {
+    #mainSobre{
+        height: 1770px;
+        .divSobre {
+            text-align: center;
+            line-height: 70px;
+            position: relative;
+            top: 20px;
+            margin: 20px;
+            font-size: 20px;
+        }
+    }
 }
 
 

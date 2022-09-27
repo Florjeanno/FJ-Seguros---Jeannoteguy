@@ -534,7 +534,24 @@ main .slide div div img {
   top: 20px;
   margin: auto;
 }
+#mainSobre .divSobre .subrayado {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 
+@media screen and (max-width: 380px) {
+  #mainSobre {
+    height: 1770px;
+  }
+  #mainSobre .divSobre {
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    font-size: 20px;
+  }
+}
 #docoblig .divDoc {
   color: rgba(241, 247, 245, 0.904);
   text-align: center;
@@ -542,17 +559,44 @@ main .slide div div img {
   position: relative;
   margin-top: 20px;
 }
+#docoblig .divDoc .textdivdoc {
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
 #docoblig .divDoc img {
+  width: 450px;
+  height: 300px;
   border-radius: 6px;
   box-shadow: 2px 0px 10px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #docoblig .divDoc #listaDoc {
   padding: 10px;
   line-height: 30px;
   text-align: left;
+  font-size: 20px;
   margin-left: 550px;
 }
 
+@media screen and (max-width: 380px) {
+  #docoblig .divDoc {
+    margin-top: 20px;
+  }
+  #docoblig .divDoc img {
+    width: 90%;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 2px 0px 10px 0px;
+  }
+  #docoblig .divDoc #listaDoc {
+    padding: 10px;
+    line-height: 60px;
+    margin-left: 80px;
+    font-size: 20px;
+  }
+}
 #mainDatos {
   height: 930px;
 }
