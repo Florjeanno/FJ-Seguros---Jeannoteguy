@@ -1,7 +1,6 @@
 main{
     .slide {
         margin: 1px;
-        border-radius: map-get($bordes, borderRadius);
         background-color: map-get($Colores, colorOscuro);
             div{
                 div{
@@ -22,7 +21,7 @@ main{
             div{
                 div{
                     img{
-                        height: 36vh;
+                        height: 34vh;
                         width: 80%;
                         position: relative;
                         left: 37px;
