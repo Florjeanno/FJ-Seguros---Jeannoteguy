@@ -2,9 +2,6 @@ nav {
     margin-left: auto;
     border-radius: map-get($bordes, borderRadius) !important;
     div {
-        .hamb {
-            background-color: map-get($Colores, colorClaro);
-        }
         div {
             ul {
                 @include display (flex, row, wrap, center, space-evenly);
@@ -39,19 +36,20 @@ nav {
 
 @media screen and (max-width: 380px) {
     nav {
-        display: none;
-        ul {
-            li {
-                padding: 5px !important;
-                a{
-                padding-left: 10px !important;
+        .hamb {
+            background-color: map-get($Colores, colorClaro);
+        }
+        .zindex {
+            z-index: 2;
+        }
+            ul {
+                li {
+                    padding: 5px !important;
+                    a{
+                        width: 200px;
+                        text-align: center;
+                    }
                 }
             }
-        }
-    }
-    
-    .zindex {
-        z-index: 2;
-    }
-
+    }   
 }
