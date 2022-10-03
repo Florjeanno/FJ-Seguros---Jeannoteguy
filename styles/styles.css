@@ -851,10 +851,11 @@ main .slide div div img {
   color: rgb(218, 233, 232);
 }
 #mainSobre .divSobre {
+  width: 500px;
   text-align: center;
-  line-height: 70px;
+  line-height: 50px;
   position: relative;
-  top: 20px;
+  top: 50px;
   margin: auto;
 }
 #mainSobre .divSobre .subrayado {
