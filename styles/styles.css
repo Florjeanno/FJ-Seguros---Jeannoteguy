@@ -397,18 +397,6 @@ nav div div ul li a:hover {
     text-align: center;
   }
 }
-<<<<<<< HEAD
-
-main div img {
-    padding: 20px;
-}
-
- /* fin paginas */
-
-/* comienza grid */
-
-=======
->>>>>>> version4-sass
 .contenedor {
   display: grid;
   grid-gap: 10px;
