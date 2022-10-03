@@ -1,0 +1,22 @@
+header {
+    @include display(flex, row, wrap, center, flex-start);
+    background-color: map-get($Colores, colorOscuro);
+    padding: 10px;
+    width: 100%;
+    .tituloPag {
+        font-size: 32px;
+        color: map-get($Colores, colorClaro);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    header {
+        img {
+            width: 70px;
+            height: 70px;
+        }
+        h1 {
+            font-size: 20px;
+         }
+    }     
+} 

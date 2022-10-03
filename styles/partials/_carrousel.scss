@@ -1,0 +1,33 @@
+main{
+    .slide {
+        margin: 1px;
+        background-color: map-get($Colores, colorOscuro);
+            div{
+                div{
+                    img {
+                        height: 60vh;
+                        width: 40%;
+                        position: relative;
+                        left: 400px;
+                        top: 10px;
+                    }
+                }
+            }
+    }
+}
+@media screen and (max-width: 380px){
+    main{
+        .slide {
+            div{
+                div{
+                    img{
+                        height: 34vh;
+                        width: 80%;
+                        position: relative;
+                        left: 37px;
+                    }
+                }
+            }
+        }
+    }
+}

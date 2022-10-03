@@ -1,0 +1,17 @@
+.subtitulos {
+    background-color:  map-get($Colores, colorClaro);
+    color:  map-get($Colores, colorOscuro);
+    text-align: center;
+    width: 220px;
+    border-radius: map-get($bordes, borderRadius);
+    margin-top: 10px;
+    margin-left: 24px;
+    padding: 2px;
+    font-size:22px;
+}
+
+@media screen and (max-width: 380px) {
+    .subtitulos{
+        margin-left: 80px;
+    }
+}

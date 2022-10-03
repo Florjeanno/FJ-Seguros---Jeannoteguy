@@ -1,0 +1,4 @@
+body {
+    background-color: map-get($Colores, colorClaro);
+    font-family: map-get($fuentes, fuentePrincipal);
+}

@@ -1,0 +1,78 @@
+.contenedor {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "header"
+                      "main"
+                      "footer";
+    grid-template-rows: 120px 930px 200px;
+    grid-template-columns: 100%;
+    height: 100vh;
+}
+
+.segContenedor { 
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "carrusel"
+                         "consejos"
+                         "empresas";
+    grid-template-columns: 100%;
+    grid-template-rows: 410px 280px 220px;
+    height: 100vh;
+}
+
+.areas {
+    background-color: rgb(42, 105, 121);
+    border: 2px solid rgb(218, 233, 232); 
+    border-radius: 6px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main { 
+    grid-area: main;
+}
+
+.carrusel {  
+    grid-area: carrusel;
+}
+ 
+.consejos {    
+    grid-area: consejos;
+}
+
+.empresas {
+    grid-area: empresas;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 380px) {
+    
+    .contenedor {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "header"
+                             "main"
+                             "footer";                   
+        grid-template-rows: 120px 1770px 400px;
+        grid-template-columns: 100%;
+        height: 100vh;
+    }
+
+    .segContenedor { 
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "carrusel"
+                             "consejos"
+                             "empresas";
+        grid-template-columns: 100%;
+        grid-template-rows: 220px 1000px 510px;
+        height: 100vh;
+    }
+}

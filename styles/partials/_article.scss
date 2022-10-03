@@ -1,0 +1,97 @@
+#article {
+    background-color: map-get($Colores, colorOscuro); 
+    .parrafo {
+        @include display(flex, row, wrap, center, space-evenly);
+        height: 198px;
+        font-size: 15px;
+        background-color: map-get($Colores, colorClaro);
+        border-radius: map-get($bordes, borderRadius);
+        position: relative;
+        top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 97%;
+        div { 
+            img {
+                @extend %imagenArticle;
+            }
+            
+            p {
+                margin-top: 20px;
+                a {
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
+                }
+                
+            }
+        }
+        div {
+            img {
+                @extend %imagenArticle;
+            }
+            
+            p {
+                margin-top: 20px;
+                a {
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
+                }
+            }
+        }
+        div {
+            a {
+                text-decoration: map-get($links, link);
+                color: map-get($Colores, colorOscuro);
+                img {
+                    @extend %imagenArticle;
+                }
+            }
+            p {
+                margin-top: 20px;
+                a{
+                    color: map-get($Colores, colorOscuro);
+                    text-decoration: map-get($links, link);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #article{
+        .parrafo {
+            @include display(flex, column, wrap, center, center);
+            height: 900px;
+            padding:20px 20px;
+            font-size: 14px;
+            background-color: map-get($Colores, colorClaro);
+            border-radius: map-get($bordes, borderRadius);
+            top: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            gap: 10px;
+            text-align: center;
+            width: 90%;
+            div{
+                a{
+                    text-decoration: map-get($links, link);
+                    color: map-get($Colores, colorOscuro);
+                    img {
+                        height: 190px;
+                        width:270px;
+                        border-radius: map-get($bordes, borderRadius);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+        
+                  
+                
+            
+        
+        
+    

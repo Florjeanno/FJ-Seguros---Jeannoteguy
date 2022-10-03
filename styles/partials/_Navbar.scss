@@ -1,0 +1,55 @@
+nav {
+    margin-left: auto;
+    border-radius: map-get($bordes, borderRadius) !important;
+    div {
+        div {
+            ul {
+                @include display (flex, row, wrap, center, space-evenly);
+                background-color: map-get($Colores, colorClaro);
+                border-radius: map-get($bordes, borderRadius) !important;
+                padding: 10px;
+                width: 350px;
+                list-style-type: map-get($links, link);
+                li {
+                    &:hover {
+                    transform: scale(1.15);
+                    transition: all 300ms;
+                     }
+                    a {
+                        text-decoration: map-get($links, link);
+                        border-radius: map-get($bordes, borderRadius);
+                        padding: 4px;
+                        font-size: 18px !important;
+                        background-color: map-get($Colores, colorOscuro);
+                        color: map-get($Colores, colorClaro) !important;
+                        &:hover {
+                        background-color: map-get($Colores, colorClaro);
+                        color: map-get($Colores, colorOscuro) !important;
+                        border: 1px solid map-get($Colores, colorOscuro);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    nav {
+        .hamb {
+            background-color: map-get($Colores, colorClaro);
+        }
+        .zindex {
+            z-index: 2;
+        }
+            ul {
+                li {
+                    padding: 5px !important;
+                    a{
+                        width: 200px;
+                        text-align: center;
+                    }
+                }
+            }
+    }   
+}

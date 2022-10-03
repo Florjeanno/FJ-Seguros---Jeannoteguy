@@ -1,0 +1,52 @@
+#mainDatos {
+    height: 930px;
+    .datosPedir {
+     text-align: center;
+     justify-content: center;
+     color: rgb(218, 233, 232);
+     position: relative;
+     margin-top: 20px;
+     line-height: 30px;
+     font-size: 25px;
+        img {
+            border-radius: 6px;
+            box-shadow: 2px 0px 10px 0px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #idDocDatos {
+            padding: 10px;
+            line-height: 50px;
+            text-align: left;
+            margin-left: 350px;
+            width: 55%;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #mainDatos {
+        height: 1770px;
+        .datosPedir {
+            padding: 30px;
+            line-height: 40px;
+            font-size: 17px;
+                #idDocDatos{
+                    width: 95%;
+                }
+                h1 {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                img {
+                    width: 90%;
+                    height: 100%;
+                }
+                #idDocDatos {
+                    text-align: left;
+                    margin-left: 30px;
+            }
+        }
+    }
+}
+ 

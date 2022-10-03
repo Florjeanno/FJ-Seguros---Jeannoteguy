@@ -1,0 +1,31 @@
+#mainSobre{
+    height: 930px;
+    color:rgb(218, 233, 232);
+    .divSobre {
+        text-align: center;
+        line-height: 70px;
+        position: relative;
+        top: 20px;
+        margin: auto;
+        .subrayado{
+            text-decoration-line: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #mainSobre{
+        height: 1770px;
+        .divSobre {
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            top: 20px;
+            margin: 20px;
+            font-size: 17px;
+            width: 90%;
+        }
+    }
+}
+
+

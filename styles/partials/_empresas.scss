@@ -1,0 +1,32 @@
+.logoEm {
+    @include display(flex, row, wrap, center, space-around);
+    background-color: map-get($Colores, colorClaro);
+    border-radius: map-get($bordes, borderRadius);
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 97%;
+}
+
+
+@media screen and (max-width: 380px) {
+    section{
+        .logoEm {
+            @include display(flex, column, nowrap, center, center);
+            background-color: map-get($Colores, colorClaro);
+            height: 410px;
+            border-radius: map-get($bordes, borderRadius);
+            position: relative;
+            top: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            gap: 30px;
+            width: 90%;
+            img {
+                height: 100px;
+                width: 230px;
+            }
+        }
+    }
+}
