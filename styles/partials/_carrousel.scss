@@ -2,17 +2,17 @@ main{
     .slide {
         margin: 1px;
         background-color: map-get($Colores, colorOscuro);
+        div{
             div{
-                div{
-                    img {
-                        height: 60vh;
-                        width: 40%;
-                        position: relative;
-                        left: 400px;
-                        top: 10px;
-                    }
+                img {
+                    height: 60vh;
+                    width: 40%;
+                    position: relative;
+                    left: 400px;
+                    top: 10px;
                 }
             }
+        }
     }
 }
 @media screen and (max-width: 380px){
