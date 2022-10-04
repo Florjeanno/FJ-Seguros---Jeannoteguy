@@ -442,7 +442,7 @@ main .slide {
   background-color: rgb(42, 105, 121);
 }
 main .slide div div img {
-  height: 62vh;
+  height: 60vh;
   width: 40%;
   position: relative;
   left: 400px;
@@ -451,7 +451,7 @@ main .slide div div img {
 
 @media screen and (max-width: 380px) {
   main .slide div div img {
-    height: 36vh;
+    height: 34vh;
     width: 80%;
     position: relative;
     left: 37px;
